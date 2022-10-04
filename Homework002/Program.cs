@@ -1,5 +1,5 @@
 ﻿Console.Write("Введите номер дня недели: ");
-int i = int.Parse(Console.ReadLine());
+int i = int.Parse(Console.ReadLine() ?? "0");
 
 if (i == 1) 
 {
