@@ -1,7 +1,7 @@
 ﻿Console.Write("Введите первое число: ");
-int a = int.Parse(Console.ReadLine());
+int a = int.Parse(Console.ReadLine() ?? "0"); // опять желтый текст
 Console.Write("Введите второе число: ");
-int b = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine() ?? "0");
 
 if (a == b*b)
 {
