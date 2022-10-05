@@ -17,7 +17,3 @@ else
     Console.Write("веденное вами число не кратно 466, остаток ");
     Console.WriteLine(s);
 }
-
-
-
-
