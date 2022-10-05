@@ -9,7 +9,7 @@ if (N > 100 && N < 999)
     Console.WriteLine (a);
 }
 
-if (N > 1000 && N< 10000)
+else if (N > 1000 && N< 10000)
 {
     int a = ((N / 10) % 10);
     Console.Write("Третья цифра заданного числа:  ");
