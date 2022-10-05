@@ -1,7 +1,17 @@
 ﻿// Показать последнюю цифру трёхзначного числа
 Console.WriteLine("Введите трехзначное число");
-int N = int.Parse(Console.ReadLine() ?? "0");
+int N = int.Parse(Console.ReadLine()?? "0");
 
-System.Console.WriteLine($"Третьей цифрой числа {N} является {N / 1 % 10} ");
-
-System.Console.WriteLine(); 
+if (N <= 100) 
+{
+    Console.WriteLine("Вы ввели не трехзначное число!");
+}
+else if (N >= 1000) 
+{
+    Console.WriteLine("Вы ввели не трехзначное число!");
+}
+else
+{
+    Console.WriteLine($"Третьей цифрой числа {N} является {N / 1 % 10} ");
+    Console.WriteLine(); 
+}
